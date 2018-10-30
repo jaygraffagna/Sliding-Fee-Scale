@@ -52,7 +52,7 @@ body{
 
     /*---Global---*/
     .toolbar{
-        background-color:#E0DAD7;
+        background-color:#333333;
         padding: 0px;
         margin: 0px;
         border-radius: 0px;
@@ -77,7 +77,8 @@ body{
     }
 
     .header-text{
-        background-color:#E0DAD7;
+        background-color:#333333;
+        color: white;
         font-family: 'Niramit', sans-serif;
         padding: 0px;
         margin: 0px;
@@ -93,15 +94,24 @@ body{
 
     /*---Body---*/
     body{
-        color:#595756;   
-        background-color:#D9D1CD;
+        color: black;   
+        background-color: white;
         padding: 0px;
         margin: 0px;
         border-radius: 0px;
     }  
 
-    .family-input{
+    .family-form{
         margin-top: 70px;
+        height: 25px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        width: 400px;
+    }
+
+    .family-input{
+        margin-top: 10px;
     }
 
 }
