@@ -107,11 +107,17 @@ body{
         margin-right: auto;
         margin-left: auto;
         align-items: center;
-        width: 400px;
+        width: 275px;
+        border-width: 0px;
     }
 
     .family-input{
         margin-top: 10px;
+    }
+
+    .family-calc{        
+        margin-top: 10px;
+        width: 175px;
     }
 
 }

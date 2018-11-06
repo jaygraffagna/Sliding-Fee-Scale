@@ -34,5 +34,5 @@ function fplcalc_func(income, persons, period_array) {
         alert("Please indicate whether the income you entered is weekly, biweekly, or monthly.");
     }
 
-    return (((income*12)/fpl_val*100).toFixed(2)); 
+    var prct =  (((income*12)/fpl_val*100).toFixed(2)); 
 }
