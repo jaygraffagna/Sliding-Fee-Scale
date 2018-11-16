@@ -13,26 +13,23 @@
                 <h1 class="header-text">Sliding Fee Scale</h1>
             </div>           
         </header>
-        <form class="family-form" >
-            <fieldset>
-                Family Size <br>
-                <input id="family-size" type="number" class="family-input" >
-                <br>
-                Monthly Gross Household Income 
-                <br>
-                <input id="gross-income" type="number" class="family-input" >
-                <br>
-                <input type="submit" value="Calculate" class="family-calc" >    
-                <br>
-                <br>
-                Fee per hour
-                <br>
-                <input id="fee" type="text" class="family-input" >       
-            </fieldset>
-        </form>
-
+        <div class="content">
+            <div>
+                <input id="monthly" class="content-radio" value="Monthly" name="period" type="radio" checked>Monthly
+                <input id="biweekly" class="content-radio" value="Biweekly" name="period" type="radio" >Biweekly
+                <input id="weekly" class="content-radio" value="Weekly" name="period" type="radio" >Weekly
+            </div>
+            <label class="content-label" >Income:</label>
+            <input id="income" type="number" class="content-input" >
+            <br>
+            <label class="content-label" >Family Size:</label>
+            <input id="persons" type="number" class="content-input" >
+            <br>
+            <label class="content-label" >Rate:</label>
+            <input id="fee" type="text" class="content-input" readonly> 
+        </div>    
     </body>
-    <footer >
+    <footer>
         <script type="text/javascript" src="site.js" ></script>
     </footer>
 </html>

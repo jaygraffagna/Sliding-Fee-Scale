@@ -1,54 +1,4 @@
-/*---Global---*/
-.toolbar{
-    background-color:#C0C9BC;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-    display: flex;
-    flex-direction: row; 
-    position: fixed;
-    width: 100%;
-}
 
-/*---Header---*/
-header{ 
-    top: 0;
-}
-
-.header-content{
-    display: flex;
-    margin: 0 auto;
-}
-.header-icon{
-    padding-top: 7px;
-    width: 40px;
-    height: 40px;
-}
-
-.header-text{
-    background-color:#C0C9BC;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-    font-size: 26pt;
-}
-
-h1 {
-    padding: 10px;
-    font-weight: 500; 
-}
-
-/*---Body---*/
-body{
-    color:white;
-    background-color:#C0C9BC;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-}
-
-
-@media screen and (min-width: 768px) {
 
     /*---Global---*/
     .toolbar{
@@ -85,6 +35,15 @@ body{
         border-radius: 0px;
         font-size: 24pt;
     }
+    .content{
+        margin-top: 75px;
+        font-style: italic;
+        font-family: 'Niramit', sans-serif;
+        font-size: 18pt;
+        width: 350px;
+        margin: 0 auto;
+        padding-top: 75px;
+    }
 
     h1 {
         	
@@ -101,23 +60,19 @@ body{
         border-radius: 0px;
     }  
 
-    .family-form{
-        margin-top: 70px;
+    .content-input{
+        margin-top: 10px;
+        width: 110px;
+        font-style: normal;
         height: 25px;
-        margin-right: auto;
-        margin-left: auto;
-        align-items: center;
-        width: 275px;
-        border-width: 0px;
+        font-size: 16pt;
     }
 
-    .family-input{
-        margin-top: 10px;
+    .content-label{
+        text-align: right;
+        width: 200px;
     }
-
-    .family-calc{        
-        margin-top: 10px;
-        width: 175px;
+    .content-radio{        
+        width: 20px;
+        height: 20px;
     }
-
-}
